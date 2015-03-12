@@ -44,7 +44,7 @@ function myLocation(position){
       map: map,
       title:"This is you!!!"
   });
-  console.log(initialLocation)
+  // console.log(initialLocation)
 }
 
 //request nearby stuff church or nightclub
@@ -87,7 +87,7 @@ function requestNearby(){
           title: service.name + getDistance(p1,p2),
           icon: thumbnail
       });
-      console.log(service)
+      // console.log(service)
     });
     results += '<button class="viewmap">VIEW MAP</button>'
     $('.results').append(results)
@@ -95,9 +95,13 @@ function requestNearby(){
 }
 
 function displayDirections(){
-  console.log('display directions')
-  ('.directions').append('Here are your directions')
-  // ('.directions').css('display', 'inline')
+  console.log(event.srcElement.textContent)
+  var directions = '<p>This is how you\'re getting there: Walk for '+50+' meters. How much did you drink though?</p>'
+  $('.directions').prepend(directions)
+  $('.directions').css('height', '20%')
+  $('#map-canvas').css('top', '120%')
+  $('.vodka').css('height', '40px')
+  $('.vodka').css('width', '40px')
 }
 
 function obtainRoute(){
@@ -117,6 +121,7 @@ function obtainRoute(){
       directionsDisplay.setDirections(response);
     }
   });
+  var distance = 50
   displayDirections()
 }
 
@@ -157,6 +162,7 @@ $(document).ready(function(){
   $('.results').on('click', 'li.service', obtainRoute)
   $(window).bind('load', function() {
     console.log('loading')
+
   // $('#loading').hide();
   // $('#content').fadeIn('slow');
   });

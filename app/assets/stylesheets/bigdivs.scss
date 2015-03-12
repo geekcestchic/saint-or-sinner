@@ -31,9 +31,23 @@
 .directions{
   width:100%;
   position:absolute;
-  top:80%;
-  height:20%;
-  padding:20px;
+  top:100%;
+  height:0;
+  background:lightgrey;
+  z-index:0;
+  text-align:center;
+  font-size:0;
+  .vodka{
+    background-image: url('vodka.png');
+    background-size:100%;
+    display:inline-block;
+    height:0;
+    width:0;
+  }
+  .hover{
+    background-image: url('drunk.png');
+    background-size:100%;
+  }
 }
 #map-canvas{
  display:block;
@@ -41,6 +55,7 @@
  width:100%;
  position:absolute;
  top:100%;
+ z-index:1;
 }
 .half-div{
   width:50%;
@@ -53,6 +68,7 @@
   color:white;
   text-align:center;
   cursor:pointer;
+  z-index:0;
   p{
     margin: 45px 0;
   }
