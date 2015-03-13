@@ -75,7 +75,7 @@ function requestNearby(){
       var p1 = {lat:initialLocation.k, lng:initialLocation.D} 
       var p2 = {lat:service.geometry.location.k,lng:service.geometry.location.D} 
 
-      results += '<li class="service" data-lat='+p2.lat+' data-lng='+p2.lng+'><b>'+service.name+'</b> | distance: '
+      results += '<li class="service" data-lat='+p2.lat+' data-lng='+p2.lng+'><img src="'+service.icon+'" class="icon"><b>'+service.name+'</b> | distance: '
       results += getDistance(p1,p2)+'m | rating: '
       results += service.rating? service.rating : 'ain\'t none hon' +'</li>'
       
@@ -127,7 +127,7 @@ function obtainRoute(){
 
 function initialize() {
   directionsDisplay = new google.maps.DirectionsRenderer();
-  console.log('initialize')
+  console.log('initializing...')
   scrollTop(1)
   var mapOptions = {
     // center: { lat: -34.397, lng: 150.644},
@@ -156,6 +156,7 @@ function initialize() {
 }
 
 $(document).ready(function(){
+  scrollTop(0);
   $('#locate-me').on('click', initialize);
   $('.half-div').on('click', requestNearby);
   $('.results').on('click', 'button.viewmap', scrollToMap)
