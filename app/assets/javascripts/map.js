@@ -162,11 +162,8 @@ $(document).ready(function(){
   $('.half-div').on('click', requestNearby);
   $('.results').on('click', 'button.viewmap', scrollToMap)
   $('.results').on('click', 'li.service', obtainRoute)
-  $(window).bind('load', function() {
-    console.log('loading')
-
-  // $('#loading').hide();
-  // $('#content').fadeIn('slow');
+  $('.directions').on('click', 'button.viewresults', function(){
+    scrollTop(2);
   });
 });
 

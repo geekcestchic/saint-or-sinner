@@ -9,7 +9,7 @@ function unfillVodka(){
 }
 
 function walkingTime(){
-  // $('.directions').find('p').text('')
+  $('.directions').find('p').remove()
   var rating = $('.hover').length;
   console.log(rating)
   $('.vodka').css('height', '0')
@@ -29,7 +29,13 @@ function walkingTime(){
   $('.directions').append('<button class="viewresults">Choose another place</button>')
 }
 
+function clearDirections(){
+  $('.directions').find('button').remove()
+  // $('.directions').find('p').remove()
+}
+
 $(document).ready(function(){
   $('.vodka').hover(fillVodka, unfillVodka)
   $('.vodka').click(walkingTime)
+  $('.results').on('click', '.service', clearDirections)
 });
