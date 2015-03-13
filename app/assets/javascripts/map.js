@@ -76,7 +76,7 @@ function requestNearby(){
       var p1 = {lat:initialLocation.k, lng:initialLocation.D} 
       var p2 = {lat:service.geometry.location.k,lng:service.geometry.location.D} 
 
-      results += '<li class="service" data-distance='+getDistance(p1,p2)+'><img src="'+service.icon+'" class="icon"><b>'+service.name+'</b> | distance: '
+      results += '<li class="service" data-distance='+getDistance(p1,p2)+' data-lng="'+service.geometry.location.D+'" data-lat="'+service.geometry.location.k+'"><img src="'+service.icon+'" class="icon"><b>'+service.name+'</b> | distance: '
       results += getDistance(p1,p2)+'m | rating: '
       results += service.rating? service.rating : 'ain\'t none hon' +'</li>'
       
@@ -95,9 +95,9 @@ function requestNearby(){
   });
 }
 
-function displayDirections(){
+function displayDirections(distance){
   console.log(event.srcElement.textContent)
-  var directions = '<p>This is how you\'re getting there: Walk for '+50+' meters. How much did you drink though?</p>'
+  var directions = '<p>This is how you\'re getting there: Walk for '+ distance +' meters. How much did you drink though?</p>'
   $('.directions').prepend(directions)
   $('.directions').css('height', '20%')
   $('#map-canvas').css('top', '120%')
@@ -108,8 +108,10 @@ function displayDirections(){
 function obtainRoute(){
   scrollToMap()
   var start = new google.maps.LatLng(initialLocation.k, initialLocation.D);
-  var end_lat = $(this).context.dataset.lat
-  var end_lng = $(this).context.dataset.lng
+  // var end_lat = $(this).context.dataset.lat
+  var end_lat = $(this).data('lat')
+  // var end_lng = $(this).context.dataset.lng
+  var end_lng = $(this).data('lng')
   var end = new google.maps.LatLng(end_lat, end_lng);
   var request = {
       origin:start,
@@ -122,8 +124,8 @@ function obtainRoute(){
       directionsDisplay.setDirections(response);
     }
   });
-  console.log($(this))
-  displayDirections()
+  var dist = $(this).data('distance')
+  displayDirections(dist)
 }
 
 function initialize() {
