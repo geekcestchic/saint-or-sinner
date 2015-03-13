@@ -67,9 +67,10 @@ function requestNearby(){
   service.nearbySearch(request, function(services){
     // console.log(services);
     if (type === "night_club"){
-      results += '<h1>Places where you can get hammered right now</h1>'
-    } else {
-      results += '<h1>Places where you can get insta-forgiven right now</h1>'
+      results = '<h1>Places where you can get hammered right now</h1>'
+    } 
+    else if (type === "place_of_worship"){
+      results = '<h1>Places where you can get insta-forgiven right now</h1>'
     }
     $.each(services,function(index,service){
       var p1 = {lat:initialLocation.k, lng:initialLocation.D} 
@@ -81,12 +82,12 @@ function requestNearby(){
       
       // console.log(getDistance(p1,p2)+'m')
       var thumbnail = service.icon
-      var nearbyMarker = new google.maps.Marker({
-          position: new google.maps.LatLng(service.geometry.location.k, service.geometry.location.D),
-          map: map,
-          title: service.name + getDistance(p1,p2),
-          icon: thumbnail
-      });
+      // var nearbyMarker = new google.maps.Marker({
+      //     position: new google.maps.LatLng(service.geometry.location.k, service.geometry.location.D),
+      //     map: map,
+      //     title: service.name + getDistance(p1,p2),
+      //     icon: thumbnail
+      // });
       // console.log(service)
     });
     results += '<button class="viewmap">VIEW MAP</button>'

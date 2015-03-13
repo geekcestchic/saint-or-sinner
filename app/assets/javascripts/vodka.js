@@ -9,6 +9,7 @@ function unfillVodka(){
 }
 
 function walkingTime(){
+  // $('.directions').find('p').text('')
   var rating = $('.hover').length;
   console.log(rating)
   $('.vodka').css('height', '0')
@@ -25,6 +26,7 @@ function walkingTime(){
     $('.directions').append('<p>That\'s gonna be a long walk, that\'s all i have to say..</p>');
     soundManager.play('ohno');
   }
+  $('.directions').append('<button class="viewresults">Choose another place</button>')
 }
 
 $(document).ready(function(){
