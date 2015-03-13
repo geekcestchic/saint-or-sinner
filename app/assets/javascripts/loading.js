@@ -4,7 +4,7 @@ function loaded() {
 console.log('loaded')
 $("#loading").fadeIn('fast');
 $("#loading").delay(2800).fadeOut(500);
-$("#loading").append('<h1>Locating you... </h1><h1>...Gurl what you doin in that neighborhood?</h1>');
+$("#loading").append('<h1>Locating you...</h1><h1>...Gurl what you doin in that neighborhood?</h1>');
 };
 
 $(document).ready(function(){
