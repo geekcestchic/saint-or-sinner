@@ -46,7 +46,8 @@
   }
   .hover{
     background-image: url('drunk.png');
-    background-size:100%;
+    // background-repeat: none;
+    background-size:cover;
   }
 }
 #map-canvas{

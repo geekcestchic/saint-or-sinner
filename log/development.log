@@ -13958,3 +13958,711 @@ Started GET "/assets/street.jpg" for ::1 at 2015-03-12 21:48:17 +0000
 
 
 Started GET "/assets/vodka.png" for ::1 at 2015-03-12 21:48:17 +0000
+
+
+Started GET "/" for ::1 at 2015-03-12 21:53:59 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (3.2ms)
+Completed 200 OK in 89ms (Views: 81.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bigdivs-23358dd92c9f7f714ca2e5989160ada6.css?body=1" for ::1 at 2015-03-12 21:53:59 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-12 21:53:59 +0000
+
+
+Started GET "/assets/application-16a1b28cc6c5b7668b9f040d1746f740.css?body=1" for ::1 at 2015-03-12 21:53:59 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-12 21:53:59 +0000
+
+
+Started GET "/assets/vodka-e228f27b1eae6ff839dc4f6417c602b0.js?body=1" for ::1 at 2015-03-12 21:53:59 +0000
+
+
+Started GET "/assets/map-eb8f5085219344533404417921675ca5.js?body=1" for ::1 at 2015-03-12 21:53:59 +0000
+
+
+Started GET "/assets/application-f4c22fe218faeb9167f261573ed62a1f.js?body=1" for ::1 at 2015-03-12 21:53:59 +0000
+
+
+Started GET "/assets/street.jpg" for ::1 at 2015-03-12 21:53:59 +0000
+
+
+Started GET "/assets/vodka.png" for ::1 at 2015-03-12 21:53:59 +0000
+
+
+Started GET "/assets/drunk.png" for ::1 at 2015-03-12 21:54:20 +0000
+
+
+Started GET "/" for ::1 at 2015-03-12 21:55:06 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 36ms (Views: 35.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bigdivs-23358dd92c9f7f714ca2e5989160ada6.css?body=1" for ::1 at 2015-03-12 21:55:06 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-12 21:55:06 +0000
+
+
+Started GET "/assets/map-eb8f5085219344533404417921675ca5.js?body=1" for ::1 at 2015-03-12 21:55:06 +0000
+
+
+Started GET "/assets/application-16a1b28cc6c5b7668b9f040d1746f740.css?body=1" for ::1 at 2015-03-12 21:55:06 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-12 21:55:06 +0000
+
+
+Started GET "/assets/vodka-e228f27b1eae6ff839dc4f6417c602b0.js?body=1" for ::1 at 2015-03-12 21:55:06 +0000
+
+
+Started GET "/assets/application-f4c22fe218faeb9167f261573ed62a1f.js?body=1" for ::1 at 2015-03-12 21:55:06 +0000
+
+
+Started GET "/" for ::1 at 2015-03-12 21:57:05 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 85ms (Views: 84.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bigdivs-2dae7e2104ad1593c4300498416466bf.css?body=1" for ::1 at 2015-03-12 21:57:05 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-12 21:57:05 +0000
+
+
+Started GET "/assets/vodka-e228f27b1eae6ff839dc4f6417c602b0.js?body=1" for ::1 at 2015-03-12 21:57:05 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-12 21:57:05 +0000
+
+
+Started GET "/assets/application-8bc84bfd36f6dc613558f06ae194eb27.css?body=1" for ::1 at 2015-03-12 21:57:05 +0000
+
+
+Started GET "/assets/map-eb8f5085219344533404417921675ca5.js?body=1" for ::1 at 2015-03-12 21:57:05 +0000
+
+
+Started GET "/assets/application-f4c22fe218faeb9167f261573ed62a1f.js?body=1" for ::1 at 2015-03-12 21:57:05 +0000
+
+
+Started GET "/assets/street.jpg" for ::1 at 2015-03-12 21:57:05 +0000
+
+
+Started GET "/assets/vodka.png" for ::1 at 2015-03-12 21:57:05 +0000
+
+
+Started GET "/" for ::1 at 2015-03-12 21:57:29 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 33ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-8bc84bfd36f6dc613558f06ae194eb27.css?body=1" for ::1 at 2015-03-12 21:57:29 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-12 21:57:29 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-12 21:57:29 +0000
+
+
+Started GET "/assets/bigdivs-2dae7e2104ad1593c4300498416466bf.css?body=1" for ::1 at 2015-03-12 21:57:29 +0000
+
+
+Started GET "/assets/map-eb8f5085219344533404417921675ca5.js?body=1" for ::1 at 2015-03-12 21:57:29 +0000
+
+
+Started GET "/assets/vodka-e228f27b1eae6ff839dc4f6417c602b0.js?body=1" for ::1 at 2015-03-12 21:57:29 +0000
+
+
+Started GET "/assets/application-f4c22fe218faeb9167f261573ed62a1f.js?body=1" for ::1 at 2015-03-12 21:57:29 +0000
+
+
+Started GET "/" for ::1 at 2015-03-12 21:58:03 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 75ms (Views: 74.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bigdivs-7bfd0988a6d377989670720072967abb.css?body=1" for ::1 at 2015-03-12 21:58:04 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-12 21:58:04 +0000
+
+
+Started GET "/assets/map-eb8f5085219344533404417921675ca5.js?body=1" for ::1 at 2015-03-12 21:58:04 +0000
+
+
+Started GET "/assets/vodka-e228f27b1eae6ff839dc4f6417c602b0.js?body=1" for ::1 at 2015-03-12 21:58:04 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-12 21:58:04 +0000
+
+
+Started GET "/assets/application-8188dfc7142b00301ef5a0401ed4b4ff.css?body=1" for ::1 at 2015-03-12 21:58:04 +0000
+
+
+Started GET "/assets/application-f4c22fe218faeb9167f261573ed62a1f.js?body=1" for ::1 at 2015-03-12 21:58:04 +0000
+
+
+Started GET "/assets/street.jpg" for ::1 at 2015-03-12 21:58:04 +0000
+
+
+Started GET "/assets/vodka.png" for ::1 at 2015-03-12 21:58:04 +0000
+
+
+Started GET "/assets/drunk.png" for ::1 at 2015-03-12 21:58:13 +0000
+
+
+Started GET "/" for ::1 at 2015-03-12 21:59:29 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 82ms (Views: 81.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bigdivs-7121cf68888db0164d64b8f44cb94839.css?body=1" for ::1 at 2015-03-12 21:59:29 +0000
+
+
+Started GET "/assets/vodka-e228f27b1eae6ff839dc4f6417c602b0.js?body=1" for ::1 at 2015-03-12 21:59:29 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-12 21:59:29 +0000
+
+
+Started GET "/assets/map-eb8f5085219344533404417921675ca5.js?body=1" for ::1 at 2015-03-12 21:59:29 +0000
+
+
+Started GET "/assets/application-076f3db0b4a7f0e48f133d5b08bcca0b.css?body=1" for ::1 at 2015-03-12 21:59:29 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-12 21:59:29 +0000
+
+
+Started GET "/assets/application-f4c22fe218faeb9167f261573ed62a1f.js?body=1" for ::1 at 2015-03-12 21:59:29 +0000
+
+
+Started GET "/assets/street.jpg" for ::1 at 2015-03-12 21:59:30 +0000
+
+
+Started GET "/assets/vodka.png" for ::1 at 2015-03-12 21:59:30 +0000
+
+
+Started GET "/assets/drunk.png" for ::1 at 2015-03-12 21:59:38 +0000
+
+
+Started GET "/" for ::1 at 2015-03-13 08:29:59 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (3.5ms)
+Completed 200 OK in 154ms (Views: 147.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-13 08:29:59 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-13 08:29:59 +0000
+
+
+Started GET "/assets/map-eb8f5085219344533404417921675ca5.js?body=1" for ::1 at 2015-03-13 08:29:59 +0000
+
+
+Started GET "/assets/application-076f3db0b4a7f0e48f133d5b08bcca0b.css?body=1" for ::1 at 2015-03-13 08:29:59 +0000
+
+
+Started GET "/assets/bigdivs-7121cf68888db0164d64b8f44cb94839.css?body=1" for ::1 at 2015-03-13 08:29:59 +0000
+
+
+Started GET "/assets/vodka-e228f27b1eae6ff839dc4f6417c602b0.js?body=1" for ::1 at 2015-03-13 08:29:59 +0000
+
+
+Started GET "/assets/application-f4c22fe218faeb9167f261573ed62a1f.js?body=1" for ::1 at 2015-03-13 08:29:59 +0000
+
+
+Started GET "/assets/bigdivs-7121cf68888db0164d64b8f44cb94839.css?body=1" for ::1 at 2015-03-13 08:33:15 +0000
+
+
+Started GET "/assets/application-076f3db0b4a7f0e48f133d5b08bcca0b.css?body=1" for ::1 at 2015-03-13 08:33:15 +0000
+
+
+Started GET "/" for ::1 at 2015-03-13 08:34:25 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 118ms (Views: 117.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bigdivs-9d029063583ffa929f9c3b046cbcdaba.css?body=1" for ::1 at 2015-03-13 08:34:25 +0000
+
+
+Started GET "/assets/application-386e89ab46b3308ac679bf1ec1c7a776.css?body=1" for ::1 at 2015-03-13 08:34:25 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-13 08:34:25 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-13 08:34:25 +0000
+
+
+Started GET "/assets/vodka-e228f27b1eae6ff839dc4f6417c602b0.js?body=1" for ::1 at 2015-03-13 08:34:25 +0000
+
+
+Started GET "/assets/map-eb8f5085219344533404417921675ca5.js?body=1" for ::1 at 2015-03-13 08:34:25 +0000
+
+
+Started GET "/assets/application-f4c22fe218faeb9167f261573ed62a1f.js?body=1" for ::1 at 2015-03-13 08:34:25 +0000
+
+
+Started GET "/assets/street.jpg" for ::1 at 2015-03-13 08:34:25 +0000
+
+
+Started GET "/assets/vodka.png" for ::1 at 2015-03-13 08:34:25 +0000
+
+
+Started GET "/assets/drunk.png" for ::1 at 2015-03-13 08:34:41 +0000
+
+
+Started GET "/" for ::1 at 2015-03-13 08:34:48 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 77ms (Views: 76.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bigdivs-715316dca51f50cb0be4522ef3e444bb.css?body=1" for ::1 at 2015-03-13 08:34:48 +0000
+
+
+Started GET "/assets/application-e114dfc62d1f300ffbf2faadae09a6bf.css?body=1" for ::1 at 2015-03-13 08:34:48 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-13 08:34:48 +0000
+
+
+Started GET "/assets/vodka-e228f27b1eae6ff839dc4f6417c602b0.js?body=1" for ::1 at 2015-03-13 08:34:48 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-13 08:34:48 +0000
+
+
+Started GET "/assets/map-eb8f5085219344533404417921675ca5.js?body=1" for ::1 at 2015-03-13 08:34:48 +0000
+
+
+Started GET "/assets/application-f4c22fe218faeb9167f261573ed62a1f.js?body=1" for ::1 at 2015-03-13 08:34:48 +0000
+
+
+Started GET "/assets/street.jpg" for ::1 at 2015-03-13 08:34:49 +0000
+
+
+Started GET "/assets/vodka.png" for ::1 at 2015-03-13 08:34:49 +0000
+
+
+Started GET "/assets/drunk.png" for ::1 at 2015-03-13 08:34:58 +0000
+
+
+Started GET "/" for ::1 at 2015-03-13 08:36:50 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 75ms (Views: 74.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bigdivs-feee3ec3477f5b4c9053f3b4cfa1e0a8.css?body=1" for ::1 at 2015-03-13 08:36:51 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-13 08:36:51 +0000
+
+
+Started GET "/assets/application-6c9368d26278303dcec2a8318cc26a04.css?body=1" for ::1 at 2015-03-13 08:36:51 +0000
+
+
+Started GET "/assets/map-eb8f5085219344533404417921675ca5.js?body=1" for ::1 at 2015-03-13 08:36:51 +0000
+
+
+Started GET "/assets/vodka-e228f27b1eae6ff839dc4f6417c602b0.js?body=1" for ::1 at 2015-03-13 08:36:51 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-13 08:36:51 +0000
+
+
+Started GET "/assets/application-f4c22fe218faeb9167f261573ed62a1f.js?body=1" for ::1 at 2015-03-13 08:36:51 +0000
+
+
+Started GET "/assets/street.jpg" for ::1 at 2015-03-13 08:36:51 +0000
+
+
+Started GET "/assets/vodka.png" for ::1 at 2015-03-13 08:36:51 +0000
+
+
+Started GET "/" for ::1 at 2015-03-13 08:38:07 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 83ms (Views: 83.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bigdivs-715316dca51f50cb0be4522ef3e444bb.css?body=1" for ::1 at 2015-03-13 08:38:07 +0000
+
+
+Started GET "/assets/application-e114dfc62d1f300ffbf2faadae09a6bf.css?body=1" for ::1 at 2015-03-13 08:38:07 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-13 08:38:07 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-13 08:38:07 +0000
+
+
+Started GET "/assets/map-eb8f5085219344533404417921675ca5.js?body=1" for ::1 at 2015-03-13 08:38:07 +0000
+
+
+Started GET "/assets/vodka-e228f27b1eae6ff839dc4f6417c602b0.js?body=1" for ::1 at 2015-03-13 08:38:07 +0000
+
+
+Started GET "/assets/application-f4c22fe218faeb9167f261573ed62a1f.js?body=1" for ::1 at 2015-03-13 08:38:07 +0000
+
+
+Started GET "/assets/street.jpg" for ::1 at 2015-03-13 08:38:07 +0000
+
+
+Started GET "/assets/vodka.png" for ::1 at 2015-03-13 08:38:07 +0000
+
+
+Started GET "/assets/drunk.png" for ::1 at 2015-03-13 08:38:14 +0000
+
+
+Started GET "/" for ::1 at 2015-03-13 08:39:59 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 75ms (Views: 74.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/map-8e21c82f5153b54a9125b35eada715bb.js?body=1" for ::1 at 2015-03-13 08:40:00 +0000
+
+
+Started GET "/assets/application-6a97066b30293de95c8fc9f693c0787e.js?body=1" for ::1 at 2015-03-13 08:40:00 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-13 08:40:00 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-13 08:40:00 +0000
+
+
+Started GET "/assets/bigdivs-715316dca51f50cb0be4522ef3e444bb.css?body=1" for ::1 at 2015-03-13 08:40:00 +0000
+
+
+Started GET "/assets/application-e114dfc62d1f300ffbf2faadae09a6bf.css?body=1" for ::1 at 2015-03-13 08:40:00 +0000
+
+
+Started GET "/assets/vodka-e228f27b1eae6ff839dc4f6417c602b0.js?body=1" for ::1 at 2015-03-13 08:40:00 +0000
+
+
+Started GET "/" for ::1 at 2015-03-13 08:40:13 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 57ms (Views: 56.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-ae44ec131bea54ea952bcb742dc39b47.js?body=1" for ::1 at 2015-03-13 08:40:13 +0000
+
+
+Started GET "/assets/map-9ea81a0d793cf52288c741452eb706b7.js?body=1" for ::1 at 2015-03-13 08:40:13 +0000
+
+
+Started GET "/assets/application-e114dfc62d1f300ffbf2faadae09a6bf.css?body=1" for ::1 at 2015-03-13 08:40:13 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-13 08:40:13 +0000
+
+
+Started GET "/assets/bigdivs-715316dca51f50cb0be4522ef3e444bb.css?body=1" for ::1 at 2015-03-13 08:40:13 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-13 08:40:13 +0000
+
+
+Started GET "/assets/vodka-e228f27b1eae6ff839dc4f6417c602b0.js?body=1" for ::1 at 2015-03-13 08:40:13 +0000
+
+
+Started GET "/assets/bigdivs-715316dca51f50cb0be4522ef3e444bb.css?body=1" for ::1 at 2015-03-13 08:40:24 +0000
+
+
+Started GET "/assets/application-e114dfc62d1f300ffbf2faadae09a6bf.css?body=1" for ::1 at 2015-03-13 08:40:24 +0000
+
+
+Started GET "/" for ::1 at 2015-03-13 08:41:06 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 68ms (Views: 66.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bigdivs-715316dca51f50cb0be4522ef3e444bb.css?body=1" for ::1 at 2015-03-13 08:41:07 +0000
+
+
+Started GET "/assets/application-e114dfc62d1f300ffbf2faadae09a6bf.css?body=1" for ::1 at 2015-03-13 08:41:07 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-13 08:41:07 +0000
+
+
+Started GET "/assets/map-cfbeeb8debe23200259a520781119bcb.js?body=1" for ::1 at 2015-03-13 08:41:07 +0000
+
+
+Started GET "/assets/application-47937de7f6b8a4b9f049e5496e0c4b36.js?body=1" for ::1 at 2015-03-13 08:41:07 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-13 08:41:07 +0000
+
+
+Started GET "/assets/vodka-e228f27b1eae6ff839dc4f6417c602b0.js?body=1" for ::1 at 2015-03-13 08:41:07 +0000
+
+
+Started GET "/assets/street.jpg" for ::1 at 2015-03-13 08:41:07 +0000
+
+
+Started GET "/assets/vodka.png" for ::1 at 2015-03-13 08:41:07 +0000
+
+
+Started GET "/assets/drunk.png" for ::1 at 2015-03-13 08:41:17 +0000
+
+
+Started GET "/" for ::1 at 2015-03-13 08:42:10 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 136ms (Views: 135.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bigdivs-715316dca51f50cb0be4522ef3e444bb.css?body=1" for ::1 at 2015-03-13 08:42:11 +0000
+
+
+Started GET "/assets/application-e114dfc62d1f300ffbf2faadae09a6bf.css?body=1" for ::1 at 2015-03-13 08:42:11 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-13 08:42:11 +0000
+
+
+Started GET "/assets/map-413ded2297cd74408badb59d82479075.js?body=1" for ::1 at 2015-03-13 08:42:11 +0000
+
+
+Started GET "/assets/application-a3d95ca0ab79e55b7b687265955107a7.js?body=1" for ::1 at 2015-03-13 08:42:11 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-13 08:42:11 +0000
+
+
+Started GET "/assets/vodka-e228f27b1eae6ff839dc4f6417c602b0.js?body=1" for ::1 at 2015-03-13 08:42:11 +0000
+
+
+Started GET "/assets/street.jpg" for ::1 at 2015-03-13 08:42:11 +0000
+
+
+Started GET "/assets/vodka.png" for ::1 at 2015-03-13 08:42:11 +0000
+
+
+Started GET "/" for ::1 at 2015-03-13 08:43:32 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 53ms (Views: 52.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bigdivs-715316dca51f50cb0be4522ef3e444bb.css?body=1" for ::1 at 2015-03-13 08:43:33 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-13 08:43:33 +0000
+
+
+Started GET "/assets/application-e114dfc62d1f300ffbf2faadae09a6bf.css?body=1" for ::1 at 2015-03-13 08:43:33 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-13 08:43:33 +0000
+
+
+Started GET "/assets/map-413ded2297cd74408badb59d82479075.js?body=1" for ::1 at 2015-03-13 08:43:33 +0000
+
+
+Started GET "/assets/vodka-9addec2bcb0b3ce0bf80275389c87d3c.js?body=1" for ::1 at 2015-03-13 08:43:33 +0000
+
+
+Started GET "/assets/application-721ce36c5fdaa1bc1e8717606c032c0f.js?body=1" for ::1 at 2015-03-13 08:43:33 +0000
+
+
+Started GET "/assets/street.jpg" for ::1 at 2015-03-13 08:43:33 +0000
+
+
+Started GET "/assets/vodka.png" for ::1 at 2015-03-13 08:43:33 +0000
+
+
+Started GET "/" for ::1 at 2015-03-13 08:43:52 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 58ms (Views: 57.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bigdivs-715316dca51f50cb0be4522ef3e444bb.css?body=1" for ::1 at 2015-03-13 08:43:52 +0000
+
+
+Started GET "/assets/application-e114dfc62d1f300ffbf2faadae09a6bf.css?body=1" for ::1 at 2015-03-13 08:43:52 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-13 08:43:52 +0000
+
+
+Started GET "/assets/map-eb8f5085219344533404417921675ca5.js?body=1" for ::1 at 2015-03-13 08:43:52 +0000
+
+
+Started GET "/assets/vodka-9addec2bcb0b3ce0bf80275389c87d3c.js?body=1" for ::1 at 2015-03-13 08:43:52 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-13 08:43:52 +0000
+
+
+Started GET "/assets/application-30717a6474b6f737bbdd1955fda6b532.js?body=1" for ::1 at 2015-03-13 08:43:52 +0000
+
+
+Started GET "/assets/street.jpg" for ::1 at 2015-03-13 08:43:53 +0000
+
+
+Started GET "/assets/vodka.png" for ::1 at 2015-03-13 08:43:53 +0000
+
+
+Started GET "/assets/drunk.png" for ::1 at 2015-03-13 08:44:05 +0000
+
+
+Started GET "/" for ::1 at 2015-03-13 08:44:42 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 56ms (Views: 55.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bigdivs-715316dca51f50cb0be4522ef3e444bb.css?body=1" for ::1 at 2015-03-13 08:44:42 +0000
+
+
+Started GET "/assets/application-e114dfc62d1f300ffbf2faadae09a6bf.css?body=1" for ::1 at 2015-03-13 08:44:42 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-13 08:44:42 +0000
+
+
+Started GET "/assets/map-eb8f5085219344533404417921675ca5.js?body=1" for ::1 at 2015-03-13 08:44:42 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-13 08:44:42 +0000
+
+
+Started GET "/assets/application-9ef0bae82117beb73ecdd67479980cba.js?body=1" for ::1 at 2015-03-13 08:44:42 +0000
+
+
+Started GET "/assets/vodka-cc8e32f54d6f1924cd4f0fdca8d57434.js?body=1" for ::1 at 2015-03-13 08:44:42 +0000
+
+
+Started GET "/assets/street.jpg" for ::1 at 2015-03-13 08:44:42 +0000
+
+
+Started GET "/assets/vodka.png" for ::1 at 2015-03-13 08:44:42 +0000
+
+
+Started GET "/assets/drunk.png" for ::1 at 2015-03-13 08:44:53 +0000
+
+
+Started GET "/" for ::1 at 2015-03-13 08:45:02 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 55ms (Views: 54.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bigdivs-715316dca51f50cb0be4522ef3e444bb.css?body=1" for ::1 at 2015-03-13 08:45:02 +0000
+
+
+Started GET "/assets/application-e114dfc62d1f300ffbf2faadae09a6bf.css?body=1" for ::1 at 2015-03-13 08:45:02 +0000
+
+
+Started GET "/assets/vodka-69466e01101475dbce342abd7cb38f53.js?body=1" for ::1 at 2015-03-13 08:45:02 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-13 08:45:02 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-13 08:45:02 +0000
+
+
+Started GET "/assets/map-eb8f5085219344533404417921675ca5.js?body=1" for ::1 at 2015-03-13 08:45:02 +0000
+
+
+Started GET "/assets/application-a9b12c8b7e9fe230ed3dc137b21425ee.js?body=1" for ::1 at 2015-03-13 08:45:02 +0000
+
+
+Started GET "/assets/vodka.png" for ::1 at 2015-03-13 08:45:02 +0000
+
+
+Started GET "/assets/street.jpg" for ::1 at 2015-03-13 08:45:02 +0000
+
+
+Started GET "/assets/drunk.png" for ::1 at 2015-03-13 08:45:10 +0000
+
+
+Started GET "/" for ::1 at 2015-03-13 08:46:38 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 60ms (Views: 59.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bigdivs-715316dca51f50cb0be4522ef3e444bb.css?body=1" for ::1 at 2015-03-13 08:46:38 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-13 08:46:38 +0000
+
+
+Started GET "/assets/vodka-99e9ee02abd4a1f35447839f383bcbc6.js?body=1" for ::1 at 2015-03-13 08:46:38 +0000
+
+
+Started GET "/assets/application-e114dfc62d1f300ffbf2faadae09a6bf.css?body=1" for ::1 at 2015-03-13 08:46:38 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-13 08:46:38 +0000
+
+
+Started GET "/assets/map-eb8f5085219344533404417921675ca5.js?body=1" for ::1 at 2015-03-13 08:46:38 +0000
+
+
+Started GET "/assets/application-9438930c8315cce8a48284cd22276928.js?body=1" for ::1 at 2015-03-13 08:46:38 +0000
+
+
+Started GET "/assets/street.jpg" for ::1 at 2015-03-13 08:46:38 +0000
+
+
+Started GET "/assets/vodka.png" for ::1 at 2015-03-13 08:46:38 +0000
+
+
+Started GET "/" for ::1 at 2015-03-13 08:47:08 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 63ms (Views: 62.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-e114dfc62d1f300ffbf2faadae09a6bf.css?body=1" for ::1 at 2015-03-13 08:47:08 +0000
+
+
+Started GET "/assets/bigdivs-715316dca51f50cb0be4522ef3e444bb.css?body=1" for ::1 at 2015-03-13 08:47:08 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-13 08:47:08 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-13 08:47:08 +0000
+
+
+Started GET "/assets/vodka-8ec7c751ef2d8bc6300f80ef5ceed169.js?body=1" for ::1 at 2015-03-13 08:47:08 +0000
+
+
+Started GET "/assets/map-eb8f5085219344533404417921675ca5.js?body=1" for ::1 at 2015-03-13 08:47:08 +0000
+
+
+Started GET "/assets/application-7257940a881aaad7a0d0c661d756da89.js?body=1" for ::1 at 2015-03-13 08:47:08 +0000
+
+
+Started GET "/assets/street.jpg" for ::1 at 2015-03-13 08:47:08 +0000
+
+
+Started GET "/assets/vodka.png" for ::1 at 2015-03-13 08:47:08 +0000
+
+
+Started GET "/assets/drunk.png" for ::1 at 2015-03-13 08:47:19 +0000
