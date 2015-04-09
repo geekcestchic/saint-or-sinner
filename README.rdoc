@@ -1,28 +1,19 @@
-== README
+### Saint or Sinner
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+###General Assembly Hackathon App
+The idea is it's 4am, and you are looking for an afterparty to further your sins or a religious institute to have your sins forgiven.
+Definitely not to be taken seriously!
+###Versions & Setup
 
-Things you may want to cover:
+This web app uses Rails 4.2.0, psql 9.4.0 and Angular 1.3.15. To get started, clone the project using the URL git@github.com:howarda9/saint-or-sinner.git, run a rake db:create db:migrate db:seed
 
-* Ruby version
+###System Dependencies
 
-* System dependencies
+The following technologies/libraries were used in the making of this project.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+-Ruby on Rails
+-Underscore.js
+-Google Maps API
+-Google Places API
+-Snazzy Maps
+-jQuery
