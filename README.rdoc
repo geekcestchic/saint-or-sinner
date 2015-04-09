@@ -1,16 +1,15 @@
-###Saint or Sinner
+Saint or Sinner
 
-###General Assembly Hackathon App
+General Assembly Hackathon App:
 The idea is it's 4am, and you are looking for an afterparty to further your sins or a religious institute to have your sins forgiven.
 Definitely not to be taken seriously!
-###Versions & Setup
+
+Versions & Setup:
 
 This web app uses Rails 4.2.0, psql 9.4.0 and Angular 1.3.15. To get started, clone the project using the URL git@github.com:howarda9/saint-or-sinner.git, run a rake db:create db:migrate db:seed
 
-###System Dependencies
 
-The following technologies/libraries were used in the making of this project.
-
+The following technologies/libraries were used in the making of this project:
 -Ruby on Rails
 -Underscore.js
 -Google Maps API
