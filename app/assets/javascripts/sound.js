@@ -42,8 +42,8 @@ $(document).ready(function(){
       url:'https://s3-eu-west-1.amazonaws.com/saint-or-sinner/audiofiles/oh-no.wav', 
     }); 
     soundManager.createSound({
-      id: 'fart', 
-      url:'https://s3-eu-west-1.amazonaws.com/saint-or-sinner/audiofiles/fart.mp3', 
+      id: 'spiritus', 
+      url:'https://s3-eu-west-1.amazonaws.com/choral-app/sound-one.mp3', 
     }); 
   } 
 
@@ -58,7 +58,7 @@ $(document).ready(function(){
   });
   $('.saint').click(function(){
     // console.log('play sound');
-    soundManager.play('fart');
+    soundManager.play('spiritus');
   });
 
 })
