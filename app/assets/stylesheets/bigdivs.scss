@@ -7,7 +7,7 @@
   height: 100%;
   background:grey;
   text-align:center;
-  background-image:url('street.jpg');
+  background-image:url('https://s3-eu-west-1.amazonaws.com/saint-or-sinner/images/street.jpg');
   background-size:cover;
   background-attachment:fixed;
   button{
@@ -38,14 +38,14 @@
   text-align:center;
   font-size:0;
   .vodka{
-    background-image: url('vodka.png');
+    background-image: url('https://s3-eu-west-1.amazonaws.com/saint-or-sinner/images/vodka.png');
     background-size:100%;
     display:inline-block;
     height:0;
     width:0;
   }
   .hover{
-    background-image: url('drunk.png');
+    background-image: url('https://s3-eu-west-1.amazonaws.com/saint-or-sinner/images/drunk.png');
     // background-repeat: none;
     background-size:cover;
   }
@@ -73,7 +73,7 @@
   position:absolute;
   top:100%;
   z-index:2;
-  background-image: url('loading.gif');
+  background-image: url('https://s3-eu-west-1.amazonaws.com/saint-or-sinner/images/loading.gif');
   background-size: cover;
   background-repeat: none;
   height:100%;
@@ -116,7 +116,7 @@
   top:200%;
   height:100%;
   width:100%;
-  // background-image:url('street.jpg');
+  // background-image:url('https://s3-eu-west-1.amazonaws.com/saint-or-sinner/images/street.jpg');
   background-size:100%;
   background-attachment:fixed;
   li{
