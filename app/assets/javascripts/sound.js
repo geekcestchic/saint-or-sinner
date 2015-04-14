@@ -43,7 +43,7 @@ $(document).ready(function(){
     }); 
     soundManager.createSound({
       id: 'spiritus', 
-      url:'https://s3-eu-west-1.amazonaws.com/choral-app/sound-one.mp3', 
+      url:'https://s3-eu-west-1.amazonaws.com/choral-app/sound-one.wav', 
     }); 
   } 
 
