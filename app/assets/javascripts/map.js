@@ -90,7 +90,7 @@ function requestNearby(){
       // });
       // console.log(service)
     });
-    results += '<button class="viewmap">VIEW MAP</button>'
+    // results += '<button class="viewmap">VIEW MAP</button>'
     $('.results').append(results)
   });
 }
