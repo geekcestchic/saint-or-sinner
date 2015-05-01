@@ -73,24 +73,16 @@ function requestNearby(){
       results = '<h1>Places where you can get insta-forgiven right now</h1>'
     }
     $.each(services,function(index,service){
-      var p1 = {lat:initialLocation.k, lng:initialLocation.D} 
-      var p2 = {lat:service.geometry.location.k,lng:service.geometry.location.D} 
+      var p1 = {lat:initialLocation.A, lng:initialLocation.F} 
+      var p2 = {lat:service.geometry.location.A,lng:service.geometry.location.F} 
 
-      results += '<li class="service" data-distance='+getDistance(p1,p2)+' data-lng="'+service.geometry.location.D+'" data-lat="'+service.geometry.location.k+'"><img src="'+service.icon+'" class="icon"><b>'+service.name+'</b> | distance: '
+      results += '<li class="service" data-distance='+getDistance(p1,p2)+' data-lng="'+service.geometry.location.F+'" data-lat="'+service.geometry.location.A+'"><img src="'+service.icon+'" class="icon"><b>'+service.name+'</b> | distance: '
       results += getDistance(p1,p2)+'m | rating: '
       results += service.rating? service.rating : 'ain\'t none hon' +'</li>'
       
-      // console.log(getDistance(p1,p2)+'m')
       var thumbnail = service.icon
-      // var nearbyMarker = new google.maps.Marker({
-      //     position: new google.maps.LatLng(service.geometry.location.k, service.geometry.location.D),
-      //     map: map,
-      //     title: service.name + getDistance(p1,p2),
-      //     icon: thumbnail
-      // });
-      // console.log(service)
     });
-    // results += '<button class="viewmap">VIEW MAP</button>'
+   
     $('.results').append(results)
   });
 }
@@ -107,7 +99,7 @@ function displayDirections(distance){
 
 function obtainRoute(){
   scrollToMap()
-  var start = new google.maps.LatLng(initialLocation.k, initialLocation.D);
+  var start = new google.maps.LatLng(initialLocation.A, initialLocation.F);
   // var end_lat = $(this).context.dataset.lat
   var end_lat = $(this).data('lat')
   // var end_lng = $(this).context.dataset.lng
