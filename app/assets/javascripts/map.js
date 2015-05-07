@@ -73,10 +73,10 @@ function requestNearby(){
       results = '<h1>Places where you can get insta-forgiven right now</h1>'
     }
     $.each(services,function(index,service){
-      var p1 = {lat:initialLocation.j, lng:initialLocation.C} 
-      var p2 = {lat:service.geometry.location.j,lng:service.geometry.location.C} 
+      var p1 = {lat:initialLocation.lat(), lng:initialLocation.lng()} 
+      var p2 = {lat:service.geometry.location.lat(),lng:service.geometry.location.lng()} 
 
-      results += '<li class="service" data-distance='+getDistance(p1,p2)+' data-lng="'+service.geometry.location.C+'" data-lat="'+service.geometry.location.j+'"><img src="'+service.icon+'" class="icon"><b>'+service.name+'</b> | distance: '
+      results += '<li class="service" data-distance='+getDistance(p1,p2)+' data-lng="'+service.geometry.location.lng()+'" data-lat="'+service.geometry.location.lat()+'"><img src="'+service.icon+'" class="icon"><b>'+service.name+'</b> | distance: '
       results += getDistance(p1,p2)+'m | rating: '
       results += service.rating? service.rating : 'ain\'t none hon' +'</li>'
       
@@ -99,7 +99,7 @@ function displayDirections(distance){
 
 function obtainRoute(){
   scrollToMap()
-  var start = new google.maps.LatLng(initialLocation.j, initialLocation.C);
+  var start = new google.maps.LatLng(initialLocation.lat(), initialLocation.lng());
   // var end_lat = $(this).context.dataset.lat
   var end_lat = $(this).data('lat')
   // var end_lng = $(this).context.dataset.lng
